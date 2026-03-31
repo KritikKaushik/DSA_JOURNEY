@@ -1,2 +1,59 @@
-# DSA_JOURNEY
-My daily journey of solving Data Structures and Algorithms problems
+# 🚀 DSA Journey
+
+This repository contains my daily progress in Data Structures and Algorithms (DSA).
+I am solving problems consistently to improve my problem-solving skills and prepare for technical interviews.
+
+---
+
+## 📌 Goals
+
+* Strengthen problem-solving skills
+* Prepare for coding interviews (FAANG-level)
+* Maintain consistency in practice
+
+---
+
+## 🗂️ Topics Covered
+
+* Arrays
+* Strings
+* Linked List
+* Stack & Queue
+* Trees & Graphs
+* Dynamic Programming
+
+---
+
+## 📅 Daily Progress
+
+| Day   | Problem           | Topic  |
+| ----- | ----------------- | ------ |
+| Day 1 | Two Sum           | Array  |
+| Day 2 | Reverse String    | String |
+| Day 3 | Valid Parentheses | Stack  |
+
+---
+
+## 🛠️ Languages Used
+
+* Java 
+
+---
+
+## 📈 Platforms
+
+* LeetCode
+* GeeksforGeeks
+* CodeStudio
+
+---
+
+## 💡 Note
+
+Consistency is the key. This repo reflects my learning journey.
+
+---
+
+## ⭐ Connect with Me
+
+Feel free to check my progress and give suggestions!
