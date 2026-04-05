@@ -29,8 +29,8 @@ I am solving problems consistently to improve my problem-solving skills and prep
 | Day   | Problem           | Topic  |
 | ----- | ----------------- | ------ |
 | Day 1 | Two Sum           | Array  |
-| Day 2 | Reverse String    | String |
-| Day 3 | Valid Parentheses | Stack  |
+| Day 2 | Duplicates        | Array  |
+| Day 3 | 3Sum_closest      | Array  |
 
 ---
 
