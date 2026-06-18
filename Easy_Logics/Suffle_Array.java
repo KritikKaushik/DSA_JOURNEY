@@ -16,3 +16,4 @@ class Solution {
         return ret;
     }
 }
+//Main problem done while solving thought of 2 pointers, used preincrement instead of normal post increment;
