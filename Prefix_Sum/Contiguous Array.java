@@ -1,22 +1,34 @@
 class Solution {
-    public int subarraysDivByK(int[] nums, int k) {
-        HashMap<Integer,Integer> map=new HashMap<>();
-        map.put(0,map.getOrDefault(0,0)+1);
-        int sum=0;
+    public int findMaxLength(int[] nums) {
+        int one=0;
+        int zero=0;
         int res=0;
+        
+        HashMap<Integer,Integer> map=new HashMap<>();
 
         for(int i=0;i<nums.length;i++){
-            sum+=nums[i];
-            int mod=sum%k;
-            if(mod<0){
-                mod+=k;
+            if(nums[i]==0){
+                zero++;
+            }else{
+                one++;
             }
-            res+=map.getOrDefault(mod,0);
-            map.put(mod,map.getOrDefault(mod,0)+1);
-            
+            int diff=one-zero;
+            if(diff==0){
+                res=Math.max(res,i+1);
+                continue;
+
+            }
+            if(!map.containsKey(diff)){
+                map.put(diff,map.getOrDefault(diff,0)+i);
+            }else{
+                int index=map.get(diff);
+                int len=i-index;
+                res=Math.max(res,len);
+            }
         }
-        return res;
         
+
+        return res;
 
         
     }
