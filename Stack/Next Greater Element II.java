@@ -25,3 +25,4 @@ class Solution {
 
     }
 }
+//in this first push all elements in stack for circular feel.
