@@ -22,7 +22,6 @@ Input: nums = [2,-5,1,-4,3,-2]
 Output: 8
 Explanation: The subarray [-5,1,-4] has absolute sum = abs(-5+1-4) = abs(-8) = 8.
  
-
 Constraints:
 
 1 <= nums.length <= 105
