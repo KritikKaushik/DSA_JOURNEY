@@ -42,3 +42,5 @@ class Solution {
         return true;
     }
 }
+
+//find the middle->reverse the second list -> compare the values.
