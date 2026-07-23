@@ -12,3 +12,5 @@ class Solution {
         return res;
     }
 }
+
+//directly see the richesr customer
