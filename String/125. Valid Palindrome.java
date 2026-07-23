@@ -17,4 +17,21 @@ class Solution {
 
         
     }
+    //reverse the string and check if they are equal.
+    
+}//optimised only in one pass without any extra soace
+{
+int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+
+        return true;
+    }
 }
