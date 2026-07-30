@@ -6,11 +6,10 @@ class Solution {
                 nums[i]=0;
             }
         }
-        int nonZero=0;
-      int[] ans=new int[nums.length];
+        int[] ans=new int[nums.length];
+        int ansIndex=0;
         for(int i=0;i<nums.length;i++){
-            if(nums[i]==0){
-                
+            if(nums[i]!=0){
                 ans[ansIndex]=nums[i];
                 ansIndex++;
             }
