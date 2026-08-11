@@ -7,6 +7,7 @@ class Pair{
     }
 }
 
+
 class Solution {
     public String reorganizeString(String s) {
         HashMap<Character,Integer> map=new HashMap<>();
