@@ -21,3 +21,4 @@ class Solution {
         return index;
     }
 }
+//for floor you just need the first occurance bigger than the target
